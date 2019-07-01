@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeMenuLayout">
+        <attr name="contentView" format="reference"/>
+        <attr name="rightMenu" format="reference"/>
+    </declare-styleable>
+</resources>

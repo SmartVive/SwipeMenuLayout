@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.swipemenulayout.SwipeMenuLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:contentView="@id/textView"
+        app:rightMenu="@id/tvDelete">
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+    <TextView
+            android:id="@+id/tvDelete"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:text="删除"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:background="@android:color/holo_red_light"/>
+
+</com.example.swipemenulayout.SwipeMenuLayout>
